@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Stratus by Sitetheory</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/Sitetheory/stratus">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/Sitetheory/stratus/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/Sitetheory/stratus/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Stratus</h1>
+          <p>Web Design Platform with Backbone.js</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Sitetheory">Sitetheory</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="stratus--" class="anchor" href="#stratus--" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Stratus <a href="https://travis-ci.org/Sitetheory/stratus"><img src="https://travis-ci.org/Sitetheory/stratus.svg?branch=master" alt="Build Status"></a> <a href="https://gitter.im/Sitetheory/stratus?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/Sitetheory/stratus.svg" alt="Join the chat at https://gitter.im/Sitetheory/stratus"></a>
+</h1>
+
+<h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+
+<p>This platform intends to bridge the gap between Web Design and Development in a fast, flexible environment.</p>
+
+<h2>
+<a id="goals" class="anchor" href="#goals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Goals</h2>
+
+<ul>
+<li>Creative Design</li>
+<li>Elegant Simplicity</li>
+<li>Extensibility</li>
+<li>Optimal Performance</li>
+</ul>
+
+<h2>
+<a id="frameworks--libraries" class="anchor" href="#frameworks--libraries" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Frameworks &amp; Libraries</h2>
+
+<h5>
+<a id="dependent" class="anchor" href="#dependent" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Dependent</h5>
+
+<ul>
+<li>Underscore.js</li>
+<li>Backbone.js</li>
+</ul>
+
+<h5>
+<a id="optional" class="anchor" href="#optional" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Optional</h5>
+
+<ul>
+<li>Require.js</li>
+</ul>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage</h2>
+
+<h5>
+<a id="overview-1" class="anchor" href="#overview-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h5>
+
+<p>Core Types:</p>
+
+<ul>
+<li>Collection</li>
+<li>Model</li>
+<li>Router</li>
+<li>View
+
+<ul>
+<li>Plugin</li>
+<li>Widget</li>
+</ul>
+</li>
+</ul>
+
+<h5>
+<a id="deployment" class="anchor" href="#deployment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deployment</h5>
+
+<p>Stratus is built to run within a Require.js Asynchronous Environment with Promises.  For an independent implementation without Require.js, further functionality involving auto-loading dependencies will not be present, so these javascript dependencies and templates will need to be defined directly on the DOM. </p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-c">// These examples will be expanded</span>
+<span class="pl-k">if</span> (tbd) <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>tbd<span class="pl-pds">'</span></span>);</pre></div>
+
+<h5>
+<a id="plugins" class="anchor" href="#plugins" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Plugins</h5>
+
+<p>Plugins are simple objects that provide Design functionality to DOM elements, independent of a model or collection, which effectively removes all API support.</p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-c">// These examples will be expanded</span>
+<span class="pl-k">if</span> (tbd) <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>tbd<span class="pl-pds">'</span></span>);</pre></div>
+
+<h5>
+<a id="widgets" class="anchor" href="#widgets" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Widgets</h5>
+
+<p>Widgets are complex objects that provide API and Design functionality to DOM elements, which include a model or collection for API support.</p>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-c">// These examples will be expanded</span>
+<span class="pl-k">if</span> (tbd) <span class="pl-en">console</span>.<span class="pl-c1">log</span>(<span class="pl-s"><span class="pl-pds">'</span>tbd<span class="pl-pds">'</span></span>);</pre></div>
+
+<h2>
+<a id="contributions" class="anchor" href="#contributions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributions</h2>
+
+<p>Always welcome.  We will add a link to further information when available.</p>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+
+<p>All information contained herein is, and remains the property of Sitetheory and its suppliers, if any. The intellectual and technical concepts contained herein are proprietary to Sitetheory and its suppliers and may be covered by U.S. and Foreign Patents, patents in process, and are protected by trade secret or copyright law.  Dissemination of this information or reproduction of this material is strictly forbidden unless prior written permission is obtained from Sitetheory.</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
